@@ -1,0 +1,13 @@
+name: sys_bio-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - cobra
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
