@@ -54,16 +54,5 @@ git commit -m "what you changed"
 git push -u origin your-branch-name
 ```
 
-After the first push, you can just use `git push`.
-
-When you're done, go to GitHub and open a **pull request** to merge your branch into `main`.
-
-## A few things
-
-- Try not to work directly on `main`.
-- Pull the latest changes before starting.
-- Avoid editing the same notebook at the same time (Git doesn't handle notebook conflicts very well).
-- If you install a new package that we need, add it to `environment.yml`.
-- Keep the data in `data/` and notebooks in `notebooks/`.
 
 That's pretty much it :)
